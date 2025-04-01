@@ -1,0 +1,21 @@
+{
+  "name": "blogs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch --env-file=.env server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/storefront-api-client": "^1.0.6",
+    "axios": "^1.8.4",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
