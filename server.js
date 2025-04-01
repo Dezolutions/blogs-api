@@ -3,6 +3,9 @@ import articleRouter from './routes/articleRouter.js';
 import cors from 'cors';
 import errorHandler from './middleware/error.js';
 import logger from './middleware/logger.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 
