@@ -11,8 +11,8 @@ const app = express();
 
 //CORS
 app.use(cors({
-  origin: process.env.SHOPIFY_STORE_DOMAIN
-}))
+  origin: `https://${process.env.SHOPIFY_STORE_DOMAIN}`
+}));
 
 //Logger
 app.use(logger);
